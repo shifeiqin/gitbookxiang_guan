@@ -8,11 +8,11 @@ Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台， 用�
 
 官网：[https://nodejs.org/en/](file:///C:\Users\FayQ\AppData\Local\GitBook_Editor\app-7.0.12\resources\app.asar\editor.html?config=eyJzdG9yYWdlS2V5IjoiXy9RenBjVlhObGNuTmNSbUY1VVZ4SGFYUkNiMjlyWEV4cFluSmhjbmxjU1cxd2IzSjBYR2RwZEdKdmIydDRhV0Z1WjE5bmRXRnUtMTUyMjIxNjYyNTQ0OCIsImhvc3QiOiJodHRwOi8vbG9jYWxob3N0OjQ0MjQ0IiwidXNlcm5hbWUiOiJzaGlmZWlxaW4iLCJ0b2tlbiI6Im9kMmJkeGhsdGg2IiwiY29tbWl0dGVyIjp7Im5hbWUiOiJzaGlmZWlxaW4iLCJlbWFpbCI6IjEwMTAwNDY2NjBAcXEuY29tIn0sImFuYWx5dGljcyI6eyJkZWJ1ZyI6MCwiZGlzdGluY3RJRCI6IjVhYjllNmU4ZjNkZDFkMDAyZWU2M2MxMSJ9LCJib29rIjp7InRpdGxlIjoiZ2l0Ym9va3hpYW5nX2d1YW4iLCJ1cmwiOiIiLCJpZCI6bnVsbH0sImFwaSI6eyJob3N0IjoiaHR0cHM6Ly9hcGkuZ2l0Ym9vay5jb20vIiwidXNlcm5hbWUiOiJzaGlmZWlxaW4iLCJ0b2tlbiI6Im9kMmJkeGhsdGg2In0sInJlcG9zaXRvcnkiOiJfL1F6cGNWWE5sY25OY1JtRjVVVnhIYVhSQ2IyOXJYRXhwWW5KaGNubGNTVzF3YjNKMFhHZHBkR0p2YjJ0NGFXRnVaMTluZFdGdSIsInJlcG9zaXRvcnlQYXRoIjoiQzpcXFVzZXJzXFxGYXlRXFxHaXRCb29rXFxMaWJyYXJ5XFxJbXBvcnRcXGdpdGJvb2t4aWFuZ19ndWFuIn0=)
 
-![](file:///C:\Users\FayQ\AppData\Local\Temp\msohtmlclip1\01\clip_image001.png "说明: http://images2015.cnblogs.com/blog/911086/201611/911086-20161128150200209-1564200357.png")
+![](/assets/1.png)
 
 下载后直接安装即可
 
-![](file:///C:\Users\FayQ\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png "说明: http://images2015.cnblogs.com/blog/911086/201611/911086-20161128150331959-1136260471.png")
+![](/assets/2.png)
 
 然后通过cmd调出DOS命令窗口测试下是否安装完成
 
@@ -20,7 +20,7 @@ Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台， 用�
 
 输入：console.log\("Hello,World!"\);测试一下
 
-![](file:///C:\Users\FayQ\AppData\Local\Temp\msohtmlclip1\01\clip_image003.png "说明: http://images2015.cnblogs.com/blog/911086/201611/911086-20161128150751287-1985179846.png")
+![](/assets/3.png)
 
 在D盘下建立一个app文件夹，app文件夹里面写一个test.js。
 
@@ -42,15 +42,15 @@ res.end\("&lt;p&gt;beyondweb.cn&lt;/p&gt;"\);
 
 console.log\("HTTP server is listening at port 3000."\);
 
-![](file:///C:\Users\FayQ\AppData\Local\Temp\msohtmlclip1\01\clip_image004.png "说明: http://images2015.cnblogs.com/blog/911086/201611/911086-20161128150930490-1531084582.png")
+![](/assets/4.png)
 
 编辑好文件后
 
 再从DOS窗口进入你的app的文件夹，在命令窗口执行【node test.js】。这样就可以在网页上访问你的js了。访问网址[http://127.0.0.1:3000。如果你正常访问了，那么就安装成功了。](file:///C:\Users\FayQ\AppData\Local\GitBook_Editor\app-7.0.12\resources\app.asar\editor.html?config=eyJzdG9yYWdlS2V5IjoiXy9RenBjVlhObGNuTmNSbUY1VVZ4SGFYUkNiMjlyWEV4cFluSmhjbmxjU1cxd2IzSjBYR2RwZEdKdmIydDRhV0Z1WjE5bmRXRnUtMTUyMjIxNjYyNTQ0OCIsImhvc3QiOiJodHRwOi8vbG9jYWxob3N0OjQ0MjQ0IiwidXNlcm5hbWUiOiJzaGlmZWlxaW4iLCJ0b2tlbiI6Im9kMmJkeGhsdGg2IiwiY29tbWl0dGVyIjp7Im5hbWUiOiJzaGlmZWlxaW4iLCJlbWFpbCI6IjEwMTAwNDY2NjBAcXEuY29tIn0sImFuYWx5dGljcyI6eyJkZWJ1ZyI6MCwiZGlzdGluY3RJRCI6IjVhYjllNmU4ZjNkZDFkMDAyZWU2M2MxMSJ9LCJib29rIjp7InRpdGxlIjoiZ2l0Ym9va3hpYW5nX2d1YW4iLCJ1cmwiOiIiLCJpZCI6bnVsbH0sImFwaSI6eyJob3N0IjoiaHR0cHM6Ly9hcGkuZ2l0Ym9vay5jb20vIiwidXNlcm5hbWUiOiJzaGlmZWlxaW4iLCJ0b2tlbiI6Im9kMmJkeGhsdGg2In0sInJlcG9zaXRvcnkiOiJfL1F6cGNWWE5sY25OY1JtRjVVVnhIYVhSQ2IyOXJYRXhwWW5KaGNubGNTVzF3YjNKMFhHZHBkR0p2YjJ0NGFXRnVaMTluZFdGdSIsInJlcG9zaXRvcnlQYXRoIjoiQzpcXFVzZXJzXFxGYXlRXFxHaXRCb29rXFxMaWJyYXJ5XFxJbXBvcnRcXGdpdGJvb2t4aWFuZ19ndWFuIn0=)
 
-![](file:///C:\Users\FayQ\AppData\Local\Temp\msohtmlclip1\01\clip_image005.png "说明: http://images2015.cnblogs.com/blog/911086/201611/911086-20161128151043677-1551847562.png")
+![](/assets/5.png)
 
-![](file:///C:\Users\FayQ\AppData\Local\Temp\msohtmlclip1\01\clip_image006.png "说明: http://images2015.cnblogs.com/blog/911086/201611/911086-20161128151325990-269570167.png")
+![](/assets/6.png)
 
 Nodejs安装成功。
 
